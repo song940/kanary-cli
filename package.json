@@ -1,0 +1,33 @@
+{
+  "name": "kanary-cli",
+  "version": "0.0.0",
+  "description": "A command-line tools for kelp ",
+  "main": "index.js",
+  "bin": {
+    "kanary": "./bin/kanary.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lsong",
+  "license": "MIT",
+  "keywords": [
+    "kanary",
+    "cli"
+  ],
+  "dependencies": {
+    "create-kanary": "^0.0.1",
+    "kelp-build": "^0.0.1",
+    "kelp-cli": "^0.0.1",
+    "kelp-lint": "^0.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/song940/kanary-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/song940/kanary-cli/issues"
+  },
+  "homepage": "https://github.com/song940/kanary-cli#readme"
+}
